@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject powerUpIndictor;
 
+   
+
 
 
     // Start is called before the first frame update
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("Focal Point");
+       
         
     }
 
