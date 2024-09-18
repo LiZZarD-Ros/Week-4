@@ -21,7 +21,7 @@ public class SpawnManagerX : MonoBehaviour
 
     private void Start()
     {
-        
+        enemy.speedEnemy = 100;
     }
 
     // Update is called once per frame
